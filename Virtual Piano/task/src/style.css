@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.white-keys kbd  {
+    text-align: center;
+    font-family: 'McLaren', sans-serif;
+    border: 2px solid black;
+    display: inline-block;
+    width: 13%;
+    height: 450px;
+    background-color: white;
+    margin: 10% auto;
+    position: relative;
+    z-index: 0;
+    transition: background 400ms;
+}
+.white-keys kbd:active {
+    background: dimgray;
+    transition: background 100ms;
+}
+body {
+    background: sandybrown;
+}
+.black-keys kbd {
+    color: white;
+    text-align: center;
+    font-family: 'McLaren', sans-serif;
+    display: inline-block;
+    background-color: black;
+    height: 250px;
+    width: 7%;
+    position: relative;
+    bottom: 350px;
+    border: 2px solid black;
+    z-index: 1;
+    transition: background 400ms;
+}
+.black-keys kbd:active {
+    background: dimgray;
+    transition: background 100ms;
+}
+
+#W {
+    position: relative;
+    left: 10%;
+}
+#E {
+    position: relative;
+    left: 16%;
+}
+#T {
+    position: relative;
+    left: 36%;
+}
+#U {
+    position: relative;
+    left: 48%;
+}
+#Y {
+    position: relative;
+    left: 42%;
+}
