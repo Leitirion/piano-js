@@ -6,7 +6,7 @@
     "hs-test-web": "https://github.com/hyperskill/hs-test-web/archive/v1.tar.gz",
     "husky": "^4.2.5",
     "jest": "^23.6.0",
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^5.1.0"
   },
   "husky": {
     "hooks": {
