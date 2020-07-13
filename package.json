@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
+    "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.0.1",
     "@types/jest": "^23.3.12",
     "hs-test-web": "https://github.com/hyperskill/hs-test-web/archive/v1.tar.gz",
